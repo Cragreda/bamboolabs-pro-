@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background-image: url(../img/gray-texture.png);
+}
+@font-face{
+	font-family: ubuntu;
+	src: url('../fonts/Ubuntu-Light.ttf');
+}
+@font-face{
+	font-family: Open;
+	src: url('../fonts/OpenSans-Light.ttf');
+}
+body{
+	font-family: Open;
+	font-size: 16px;
+}
+header{
+	border-bottom: 1px dashed #333;
+	background-image: url(../img/gray-texture.png);
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 10;
+}
+.subheader{
+	margin: 0 auto;
+	width: 1000px;
+}
+.logo{
+	float: left;
+}
+nav{
+	margin-left: 500px;
+}
+.menu nav ul li{
+	background-color: #CECECE;
+	border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-o-border-radius: 3px;
+		-ms-border-radius: 3px;
+	box-shadow: inset 0px 0px 2px #151715;
+		-webkit-box-shadow: inset 0px 0px 5px #151715;
+		-moz-box-shadow: inset 0px 0px 2px #151715;
+		-o-box-shadow: inset 0px 0px 2px #151715;
+		-ms-box-shadow: inset 0px 0px 2px #151715;
+	display: inline-block;
+	list-style: none;
+	margin: 35px 10px 35px 0px;
+	padding: 7px;
+}
+.menu nav ul li:hover{
+	background-color: #3482CF;
+	transition: 0.4s ease-in;
+		-webkit-transition: 0.4s ease-in;
+		-moz-transition: 0.4s ease-in;
+		-o-transition: 0.4s ease-in;
+		-ms-transition: 0.4s ease-in;
+}
+.menu nav ul li a:hover{
+	color: #eee;
+}
+.menu nav ul li a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#welcome{
+	background-image: url(../img/texture-elegant.png);
+	padding-top: 70px;
+}
+.welcome{
+	margin: 0 auto;
+	padding: 40px;
+	width: 1000px;
+
+}
+.welcome div{
+	display: inline-block;
+}
+.texto p{
+	width: 500px;
+}
+.img-products{
+	padding-left: 50px;
+	width: 400px;
+}
+#form{
+	background: #24811F;/*#347CC5*/
+	box-shadow: rgb(128, 128, 128) 1px 1px 15px 0px;
+	padding: 20px;
+}
+.form{
+	border-radius: 3px;
+	border: 1px dashed #eee;
+	margin: 0 auto;
+	padding. 5px;
+	width: 1000px;
+
+}
+.form p{
+	color: #eee;
+	font-size: 25px;
+	font-family: Georgia;
+	font-style: italic;
+	padding: 10px;
+	text-shadow: 0px 0px 1px #333;
+}
+form{
+	padding: 0px 10px 10px;
+}
+input[type="text"], input[type="email"]{
+	border: 3px solid #D69F30;
+	border-radius: 3px;
+	color: #333;
+	font-family: Georgia;
+	font-size: 19px;
+	font-style: italic;
+	outline: none;
+	padding: 10px;
+	width: 300px;	
+}
+input[type="submit"]{
+	background-color: #D38821;
+	border: 3px solid #6CB127;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: Georgia;
+	font-size: 19px;
+	font-style: italic;
+	padding: 10px;
+	width: 150px;
+}
+#h1-sections{
+	color: #3A7630;
+	font-family: ubuntu;
+	font-size: 25px;
+}
+#h1-nosotros{
+	color: #fff;
+	font-family: ubuntu;
+	font-size: 25px;
+}
+#servicios{
+	background-image: url(../img/gray-texture.png);
+}
+#servicios section{
+	margin: 0px auto;
+	width: 1000px;
+}
+#servicios section article{
+	background-color: #fff;
+	border-radius: 4px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		-o-border-radius: 4px;
+		-ms-border-radius: 4px;
+	box-shadow: inset 0 0 10px #999;
+		-webkit-box-shadow: inset 0 0 10px #999;
+		-moz-box-shadow: inset 0 0 10px #999;
+		-o-box-shadow: inset 0 0 10px #999;
+		-ms-box-shadow: inset 0 0 10px #999;
+	height: 300px;
+	margin:10px 0px;
+	width: 1000px;
+}
+#nosotros{
+	background-image: url(../img/madera.jpg);
+	padding: 10px;
+}
+#nosotros aside{
+	margin: 0 auto;
+	width: 1000px;
+}
+#nosotros aside div{
+	display: inline-block;
+}
+hr{
+	color: #B7774D;
+	margin: 10px;
+	width: 390px;
+}
+.information{
+	border: 2px solid #C44E1C;
+	background-color: #fff;
+	border-radius: 6px;
+	margin: 10px 20px;
+	padding: 20px;
+	width: 400px;
+}
+.avatar{
+	border-radius: 50%;
+	border: 10px solid #333;
+	margin-left: 130px;
+	margin-bottom: 0px;
+}
+.information p{
+	text-align: justify;
+	width: 400px;
+}
+.information h2{
+	color: #B7774D;
+	font-size: 30px;
+	font-family: Open;
+	text-align: center;
+}
+.twitter{
+	background-color: #2E7EBA;
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px #eee;
+	margin-left: 28px;
+	padding-left: 60px;
+	padding: 10px;
+	text-align: center;
+	width: 400px;
+}
+.title{
+	font-size: 30px;
+}
+.parrafo{
+	float: right;
+	padding: 30px;
+	text-align: justify;
+	width: 600px;
+}
+.img{
+	padding: 15px;
+}
+#web-design div{
+	display:inline-block;
+	vertical-align: top;
+}
+#shoping div{
+	display: inline-block;
+	vertical-align: top;
+}
+#graphics-design div{
+	display: inline-block;
+	vertical-align: top;
+}
+#learn div{
+	display: inline-block;
+	vertical-align: top;
+}
+#cisco div{
+	display: inline-block;
+	vertical-align: top;
+}
